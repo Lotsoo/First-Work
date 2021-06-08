@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-image: url(c.png);
+	font:16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+.c {
+	width: 960px;
+	margin: auto;
+	background-color: white;
+}
+.h {
+	padding: 20px;
+}
+.h .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+.h li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.h a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+.h a:hover{
+	background-color: lawngreen;
+	color: black;
+}
+.hero {
+	height: 300px;
+	background-image: url(b.jpeg);
+	background-size: cover;
+	background-position: 0 -250px;
+	border-top: 5px solid red;
+	border-bottom: 5px solid orange;
+}
+.main a{
+	text-decoration: none;
+	color: rebeccapurple;
+}
+.main a:hover{
+	background-color: gold;
+	color: black;
+}
+
+.main .judul {
+	font-weight: bold;
+	font-size: 25px;
+	padding: center;
+}
+.main {
+	
+	padding: 20px;
+}
+strong{
+	font-weight: bold;
+}
+.p .tiga {
+	font-weight: bold;
+}
+.main p {
+margin-bottom: 10px
+;
+}
+.footer {
+	background-color:#333;
+	padding: 10px;
+}
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 15px;
+}
+.photo {
+	color: red;
+}
+
